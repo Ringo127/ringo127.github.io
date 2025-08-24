@@ -1,0 +1,137 @@
+/*背景色*/
+body {
+	margin: 0;
+	background-color: #ddeeff;
+}
+
+article {
+}
+
+p {
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+/* 見出し */
+h1 { 
+	font-size: 50px;
+	font-weight: 10px;
+	color: #333333; 
+}
+
+h2 {
+	font-size: 30px;
+	color: #333333;
+}
+
+h3 {
+	position: relative;
+	padding-left: 1.2em;/*アイコン分のスペース*/
+	font-size: 25px;
+	color: #333333;
+}
+
+h3:before {
+  content: "#";
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #5ab9ff; /*アイコン色*/
+  font-weight: 900;
+}
+
+h4 {
+	font-size: 20px;
+	color: #333333;
+}
+
+pre {
+	color: #333333;
+	background-color: #EEEEEE;
+}
+
+code {
+	color: #333333;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+
+	font-size: 14px;
+	font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	line-height: 20px;
+
+	padding: 10px 30px;
+
+	display: block;
+}
+
+
+/* ページ */
+#page {
+	background-color: #ddeeff;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#page-title {
+	margin: 0 auto;
+	font-family: Savoye LET;
+}
+
+
+#page-title {
+	text-align: center;
+}
+
+
+#page-navi {
+	background-color: #ddeeff;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#page-navi ul {
+	padding: 0;
+}
+
+#page-navi ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#page-navi ul li {
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+#page-article {
+	background-color: #FFFFFF;
+	width: 800px;
+	margin: 20px auto;
+	padding: 10px 30px;
+	float: left;
+}
+
+#page-head {
+	background-color: #222222;
+}
+
+#page-side {
+	background-color: #FFFFFF;
+	width: 220px;
+	margin: 20px auto;
+	float: right;
+}
+
+#calendar table {
+	width: 220px;
+}
+
+
+#page-foot {
+	background-color: #FFFFFF;
+	clear: both;
+}
+
